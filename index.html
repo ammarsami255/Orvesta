@@ -1,260 +1,438 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orvesta | Building the Future of Luxury Living</title>
-  
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Orvesta is a premium real estate developer shaping the future of luxury living with architectural brilliance and elegant experiences.">
-  
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  
-  <!-- Styles -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Ambient Noise Overlay -->
-  <div class="noise-overlay"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orvesta | Building the Future of Luxury Living</title>
 
-  <!-- Custom Cursor -->
-  <div class="custom-cursor"></div>
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Orvesta is a premium real estate developer shaping the future of luxury living with architectural brilliance and elegant experiences."
+    />
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="#" class="brand-logo">
-        <img src="Logo/PNG%27s/PNG%27S/Full/WHITE.png" alt="Orvesta Logo">
-      </a>
-      <div class="nav-links">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#lifestyle" class="nav-link">Lifestyle</a>
-        <a href="#philosophy" class="nav-link">Philosophy</a>
-      </div>
-      <a href="#contact" class="btn btn-outline nav-cta desktop-only">Request Consultation</a>
-      <button class="mobile-menu-toggle" aria-label="Toggle Menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </nav>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Hero Section -->
-  <header id="hero" class="hero-section">
-    <div class="hero-background">
-      <img src="Building_imagery/low-angle-view-modern-building-against-clear-sky-2.jpg" alt="Luxury Building Structure" class="hero-img">
-      <div class="hero-overlay"></div>
-    </div>
-    
-    <div class="hero-content">
-      <div class="hero-text-wrapper reveal-hero">
-        <h1 class="hero-title">Building the Future of <br> <span>Luxury Living</span></h1>
-        <p class="hero-subtitle">Experience elegance, architectural brilliance, and unmatched premium quality.</p>
-        <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">Explore Projects</a>
-          <a href="#contact" class="btn btn-outline">Contact Us</a>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js",
+      );
+
+      fbq("init", "61590304732752");
+      fbq("track", "PageView");
+    </script>
+
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=61590304732752&ev=PageView&noscript=1"
+      />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <!-- Ambient Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="brand-logo">
+          <img src="Logo/PNG%27s/PNG%27S/Full/WHITE.png" alt="Orvesta Logo" />
+        </a>
+        <div class="nav-links">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#lifestyle" class="nav-link">Lifestyle</a>
+          <a href="#philosophy" class="nav-link">Philosophy</a>
         </div>
+        <a href="#contact" class="btn btn-outline nav-cta desktop-only"
+          >Request Consultation</a
+        >
+        <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
-    </div>
-    <div class="scroll-indicator">
-      <span>Scroll</span>
-      <div class="scroll-line"></div>
-    </div>
-  </header>
+    </nav>
 
-  <!-- About Section -->
-  <section id="about" class="about-section section-padding">
-    <div class="container">
-      <div class="about-grid">
-        <div class="about-image-wrapper reveal-up">
-          <img src="Characters/freepik__a-sideprofile-shot-of-a-woman-wearing-a-navy-blue-__895.png" alt="Orvesta Lifestyle" class="about-img main-img" loading="lazy">
-          <img src="orvesta%20inks/05d1159c22f7d28c7045c59aae3f6c34.jpg" alt="Texture Accent" class="about-img accent-img parallax-element" data-speed="0.05" loading="lazy">
-        </div>
-        <div class="about-text reveal-up" style="transition-delay: 0.2s;">
-          <h4 class="section-kicker">Our Vision</h4>
-          <h2 class="section-title">Redefining the Skyline with Purpose</h2>
-          <p class="section-body">
-            At Orvesta, our mission is to create more than just buildings; we craft immersive living experiences. Every development is a testament to our legacy in luxury real estate, merging architectural excellence with visionary design.
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+      <div class="hero-background">
+        <img
+          src="Building_imagery/low-angle-view-modern-building-against-clear-sky-2.jpg"
+          alt="Luxury Building Structure"
+          class="hero-img"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text-wrapper reveal-hero">
+          <h1 class="hero-title">
+            Building the Future of <br />
+            <span>Luxury Living</span>
+          </h1>
+          <p class="hero-subtitle">
+            Experience elegance, architectural brilliance, and unmatched premium
+            quality.
           </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrapper reveal-up">
+            <img
+              src="Characters/freepik__a-sideprofile-shot-of-a-woman-wearing-a-navy-blue-__895.png"
+              alt="Orvesta Lifestyle"
+              class="about-img main-img"
+              loading="lazy"
+            />
+            <img
+              src="orvesta%20inks/05d1159c22f7d28c7045c59aae3f6c34.jpg"
+              alt="Texture Accent"
+              class="about-img accent-img parallax-element"
+              data-speed="0.05"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-text reveal-up" style="transition-delay: 0.2s">
+            <h4 class="section-kicker">Our Vision</h4>
+            <h2 class="section-title">Redefining the Skyline with Purpose</h2>
+            <p class="section-body">
+              At Orvesta, our mission is to create more than just buildings; we
+              craft immersive living experiences. Every development is a
+              testament to our legacy in luxury real estate, merging
+              architectural excellence with visionary design.
+            </p>
+            <p class="section-body">
+              We believe in elegance that endures, creating spaces that inspire
+              and elevate the everyday into the extraordinary.
+            </p>
+            <a href="#philosophy" class="link-arrow"
+              >Discover Our Philosophy <span>&#8594;</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Showcase Section -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <h4 class="section-kicker">Portfolio</h4>
+          <h2 class="section-title">Signature Developments</h2>
+
+          <!-- Filters -->
+          <div class="project-filters" id="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="residential">
+              Residential
+            </button>
+            <button class="filter-btn" data-filter="commercial">
+              Commercial
+            </button>
+            <button class="filter-btn" data-filter="luxury">
+              Luxury Villas
+            </button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card reveal-up" data-category="residential">
+            <div class="project-img-wrapper">
+              <img
+                src="Building_imagery/low-angle-view-building-against-clear-blue-sky.jpg"
+                alt="The Zenith Tower"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <span class="view-details">View Details</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">The Zenith Tower</h3>
+              <p class="project-location">Downtown District</p>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="project-card reveal-up"
+            data-category="luxury"
+            style="transition-delay: 0.1s"
+          >
+            <div class="project-img-wrapper">
+              <img
+                src="Building_imagery/minimalist-architectural-building-details.jpg"
+                alt="Aura Estates"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <span class="view-details">View Details</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Aura Estates</h3>
+              <p class="project-location">Palm View, North Island</p>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="project-card reveal-up"
+            data-category="commercial"
+            style="transition-delay: 0.2s"
+          >
+            <div class="project-img-wrapper">
+              <img
+                src="Building_imagery/abstract-background-architecture-lines-modern-architecture-detail.jpg"
+                alt="Orion Business Hub"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <span class="view-details">View Details</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Orion Business Hub</h3>
+              <p class="project-location">Financial Center</p>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div
+            class="project-card reveal-up"
+            data-category="residential"
+            style="transition-delay: 0.3s"
+          >
+            <div class="project-img-wrapper">
+              <img
+                src="photo ai/freepik__modern-apartment-side-entrance-corridor-3-meters-w__49891.png"
+                alt="Elysium Residences"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <span class="view-details">View Details</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Elysium Residences</h3>
+              <p class="project-location">Marina Bay</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lifestyle Section -->
+    <section id="lifestyle" class="lifestyle-section">
+      <div
+        class="lifestyle-parallax-bg"
+        style="
+          background-image: url(&quot;Characters/freepik__candid-i-with-natural-textures-and-highly-realisti__892.png&quot;);
+        "
+      >
+        <div class="lifestyle-overlay"></div>
+      </div>
+      <div class="lifestyle-content container text-center reveal-up">
+        <h2 class="lifestyle-quote">
+          "Life at Orvesta is not just living — <br class="desktop-br" />
+          it’s experiencing elegance."
+        </h2>
+      </div>
+    </section>
+
+    <!-- Architecture Philosophy Section -->
+    <section id="philosophy" class="philosophy-section section-padding">
+      <div class="container">
+        <div class="philosophy-grid">
+          <div class="philosophy-text reveal-up">
+            <h4 class="section-kicker">Architecture</h4>
+            <h2 class="section-title">Minimalism Meets Grandeur</h2>
+            <p class="section-body">
+              Our architectural approach removes the unnecessary, allowing the
+              pure beauty of materials, space, and light to take precedence. We
+              design for the future while remaining grounded in timeless
+              aesthetic principles.
+            </p>
+            <div class="animated-line"></div>
+          </div>
+          <div
+            class="philosophy-visual reveal-up"
+            style="transition-delay: 0.2s"
+          >
+            <img
+              src="orvesta%20inks/freepik__remove-all-text-from-the-book-cover-keeping-cover-__19636.png"
+              alt="Abstract Architecture Element"
+              class="abstract-texture"
+              loading="lazy"
+            />
+            <img
+              src="Building_imagery/d35ee0b6-8bc6-4fe1-9c59-b0a3261ef371.jpg"
+              alt="Detail"
+              class="detail-img parallax-element"
+              data-speed="0.1"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container contact-container">
+        <div class="contact-info reveal-up">
+          <h2 class="section-title">Request a Private Consultation</h2>
           <p class="section-body">
-            We believe in elegance that endures, creating spaces that inspire and elevate the everyday into the extraordinary.
+            Connect with our dedicated advisors to explore available properties
+            and investment opportunities.
           </p>
-          <a href="#philosophy" class="link-arrow">Discover Our Philosophy <span>&#8594;</span></a>
+          <div class="contact-details">
+            <p><strong>Email:</strong> Orvesta@orvesta.com</p>
+            <p><strong>Phone:</strong> +20 (000) ORVESTA</p>
+            <p><strong>Headquarters:</strong>El-Sherouck City , 2nd District</p>
+          </div>
+        </div>
+
+        <div
+          class="contact-form-wrapper reveal-up"
+          style="transition-delay: 0.2s"
+        >
+          <form id="consultation-form" class="luxury-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Orvesta Client"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="orvesta@orvesta.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+20 (000) ORVESTA"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                placeholder="I am interested in exploring properties..."
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary btn-full"
+              id="submit-btn"
+            >
+              <span class="btn-text">Submit Request</span>
+              <span class="btn-loader" style="display: none">Sending...</span>
+            </button>
+            <div id="form-status" class="form-status"></div>
+          </form>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Projects Showcase Section -->
-  <section id="projects" class="projects-section section-padding">
-    <div class="container">
-      <div class="section-header reveal-up">
-        <h4 class="section-kicker">Portfolio</h4>
-        <h2 class="section-title">Signature Developments</h2>
-        
-        <!-- Filters -->
-        <div class="project-filters" id="project-filters">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="residential">Residential</button>
-          <button class="filter-btn" data-filter="commercial">Commercial</button>
-          <button class="filter-btn" data-filter="luxury">Luxury Villas</button>
-        </div>
-      </div>
-
-      <div class="projects-grid" id="projects-grid">
-        <!-- Project 1 -->
-        <div class="project-card reveal-up" data-category="residential">
-          <div class="project-img-wrapper">
-            <img src="Building_imagery/low-angle-view-building-against-clear-blue-sky.jpg" alt="The Zenith Tower" loading="lazy">
-            <div class="project-overlay">
-              <span class="view-details">View Details</span>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-name">The Zenith Tower</h3>
-            <p class="project-location">Downtown District</p>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <img
+            src="Logo/PNG%27s/PNG%27S/Full/WHITE.png"
+            alt="Orvesta Logo"
+            class="footer-logo"
+          />
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Careers</a>
           </div>
         </div>
-
-        <!-- Project 2 -->
-        <div class="project-card reveal-up" data-category="luxury" style="transition-delay: 0.1s;">
-          <div class="project-img-wrapper">
-            <img src="Building_imagery/minimalist-architectural-building-details.jpg" alt="Aura Estates" loading="lazy">
-            <div class="project-overlay">
-              <span class="view-details">View Details</span>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-name">Aura Estates</h3>
-            <p class="project-location">Palm View, North Island</p>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="project-card reveal-up" data-category="commercial" style="transition-delay: 0.2s;">
-          <div class="project-img-wrapper">
-            <img src="Building_imagery/abstract-background-architecture-lines-modern-architecture-detail.jpg" alt="Orion Business Hub" loading="lazy">
-            <div class="project-overlay">
-              <span class="view-details">View Details</span>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-name">Orion Business Hub</h3>
-            <p class="project-location">Financial Center</p>
-          </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div class="project-card reveal-up" data-category="residential" style="transition-delay: 0.3s;">
-          <div class="project-img-wrapper">
-            <img src="photo ai/freepik__modern-apartment-side-entrance-corridor-3-meters-w__49891.png" alt="Elysium Residences" loading="lazy">
-            <div class="project-overlay">
-              <span class="view-details">View Details</span>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-name">Elysium Residences</h3>
-            <p class="project-location">Marina Bay</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Lifestyle Section -->
-  <section id="lifestyle" class="lifestyle-section">
-    <div class="lifestyle-parallax-bg" style="background-image: url('Characters/freepik__candid-i-with-natural-textures-and-highly-realisti__892.png');">
-      <div class="lifestyle-overlay"></div>
-    </div>
-    <div class="lifestyle-content container text-center reveal-up">
-      <h2 class="lifestyle-quote">"Life at Orvesta is not just living — <br class="desktop-br"> it’s experiencing elegance."</h2>
-    </div>
-  </section>
-
-  <!-- Architecture Philosophy Section -->
-  <section id="philosophy" class="philosophy-section section-padding">
-    <div class="container">
-      <div class="philosophy-grid">
-        <div class="philosophy-text reveal-up">
-          <h4 class="section-kicker">Architecture</h4>
-          <h2 class="section-title">Minimalism Meets Grandeur</h2>
-          <p class="section-body">
-            Our architectural approach removes the unnecessary, allowing the pure beauty of materials, space, and light to take precedence. We design for the future while remaining grounded in timeless aesthetic principles.
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Orvesta Real Estate Development. All Rights Reserved.
           </p>
-          <div class="animated-line"></div>
-        </div>
-        <div class="philosophy-visual reveal-up" style="transition-delay: 0.2s;">
-          <img src="orvesta%20inks/freepik__remove-all-text-from-the-book-cover-keeping-cover-__19636.png" alt="Abstract Architecture Element" class="abstract-texture" loading="lazy">
-          <img src="Building_imagery/d35ee0b6-8bc6-4fe1-9c59-b0a3261ef371.jpg" alt="Detail" class="detail-img parallax-element" data-speed="0.1" loading="lazy">
         </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section section-padding">
-    <div class="container contact-container">
-      <div class="contact-info reveal-up">
-        <h2 class="section-title">Request a Private Consultation</h2>
-        <p class="section-body">Connect with our dedicated advisors to explore available properties and investment opportunities.</p>
-        <div class="contact-details">
-          <p><strong>Email:</strong> Orvesta@orvesta.com</p>
-          <p><strong>Phone:</strong> +20 (000) ORVESTA</p>
-          <p><strong>Headquarters:</strong>El-Sherouck City , 2nd District</p>
-        </div>
-      </div>
-      
-      <div class="contact-form-wrapper reveal-up" style="transition-delay: 0.2s;">
-        <form id="consultation-form" class="luxury-form">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" required placeholder="Orvesta Client">
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required placeholder="orvesta@orvesta.com">
-          </div>
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="+20 (000) ORVESTA">
-          </div>
-          <div class="form-group">
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message" rows="4" required placeholder="I am interested in exploring properties..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
-            <span class="btn-text">Submit Request</span>
-            <span class="btn-loader" style="display: none;">Sending...</span>
-          </button>
-          <div id="form-status" class="form-status"></div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-top">
-        <img src="Logo/PNG%27s/PNG%27S/Full/WHITE.png" alt="Orvesta Logo" class="footer-logo">
-        <div class="footer-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Careers</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Orvesta Real Estate Development. All Rights Reserved.</p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <script type="module" src="js/main.js"></script>
-</body>
+    <!-- Scripts -->
+    <script type="module" src="js/main.js"></script>
+    <script>
+      document
+        .getElementById("consultation-form")
+        .addEventListener("submit", function () {
+          fbq("track", "Lead");
+        });
+    </script>
+  </body>
 </html>
