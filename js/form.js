@@ -50,13 +50,13 @@ export function initForm() {
     })
 });
 
-            statusDiv.textContent = "Sent successfully ✔";
+            statusDiv.textContent = "Sent successfully";
             statusDiv.style.color = "green";
 
             form.reset();
 
         } catch (err) {
-            statusDiv.textContent = "Error sending ❌";
+            statusDiv.textContent = "Error sending";
             statusDiv.style.color = "red";
         }
 
