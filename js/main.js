@@ -4,7 +4,7 @@ import { initFilters } from './filters.js';
 import { initForm } from './form.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    initCursor();
+    // initCursor();
     initNavbar();
     
     // Initialize modules
